@@ -8,7 +8,7 @@ In docker-compose.yml:
 
     services:
       www:
-        image: greyarch/caddy
+        image: hyperdev/caddy
         environment:
           CONFIG: |
             :80 {
